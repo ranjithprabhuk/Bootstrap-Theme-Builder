@@ -3,9 +3,7 @@ Customize and build your bootstrap css using Bootstrap Theme Builder. It builds 
 
 ## Use it Now...
 
-* [Use Theme Builder Now] (http://themebuilder.ranjithprabhu.in)
-
-* [Download Source]  (https://github.com/ranjithprabhuk/Bootstrap-Theme-Builder/archive/master.zip)
+* [Click Here to Use Theme Builder Now] (http://themebuilder.ranjithprabhu.in)
 
 ## Features
 * Easy Customization
