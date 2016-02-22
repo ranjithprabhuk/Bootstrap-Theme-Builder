@@ -5,7 +5,7 @@ Customize and build your bootstrap css using Bootstrap Theme Builder. It builds 
 
 * [Use Theme Builder Now] (http://themebuilder.ranjithprabhu.in)
 
-* [Download Source]  (https://github.com/ranjithprabhuk/Angular-Bootstrap-Dashboard/archive/master.zip)
+* [Download Source]  (https://github.com/ranjithprabhuk/Bootstrap-Theme-Builder/archive/master.zip)
 
 ## Features
 * Easy Customization
