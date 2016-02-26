@@ -17,13 +17,13 @@ Date            : 21 Feb 2016
         <div class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">Help</a>
+                    <a data-toggle="modal" data-target="#myModal">Help</a>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="http://ranjithprabhu.in" target="_blank">About Author</a></li>
-                <li><a href="#" target="_blank">View in Github</a></li>
+                <li><a href="https://github.com/ranjithprabhuk/Bootstrap-Theme-Builder" target="_blank">View in Github</a></li>
             </ul>
 
         </div>
@@ -53,7 +53,7 @@ Date            : 21 Feb 2016
                     </div>
                     <div data-ng-if="x.Type==3">
                         <label class="text-left">{{x.Label}}</label>
-                        <input type="text" class="form-control" />
+                        <input type="text" data-ng-model="x.Value" class="form-control" />
                     </div>
                 </div>
             </div>
@@ -63,9 +63,50 @@ Date            : 21 Feb 2016
     </div>
 
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Build Your Bootstrap Theme</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This page will help you to build your own bootstrap theme</p>
+                    <h4>Steps to build your Bootstrap Theme</h4>
+                    <ul class="well">
+                        <li>
+                            Modify the Colors and Values as you need
+                        </li>
+                        <li>
+                           Press the Download CSS Button to get your boostrap.css file
+                        </li>
+                        <li>
+                            If you want to reset your changes, press the Reset Button.
+                        </li>
+                        <li>
+                            Thats it, Enjoy!!!!
+                        </li>
+                       
+                    </ul>
+                    <p>
+                        Note: Its not necassary to change all the values. Values are given here based on bootstrap saas variables.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     
 </div>
 <div style="padding-bottom:60px;"></div>
+
+<!--Footer Content-->
 <div class="navbar navbar-default navbar-fixed-bottom" style="border-top:2px solid #aaa;">
     <div class="container">
             <ul class="nav navbar-nav">
@@ -80,10 +121,12 @@ Date            : 21 Feb 2016
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a></li>
 
-                <li><a><b>Version</b> 1.0.0</a></li>
+                <li><a><b>Version</b> 2.3.0</a></li>
             </ul>
     </div>
 </div>
+
+
 
 
 

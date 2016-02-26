@@ -11,5 +11,6 @@
 
 var appConfig = {
     title: "Bootstrap Theme Builder",
-    lang: "en"
+    lang: "en",
+    version:"1.5.2"
 };
